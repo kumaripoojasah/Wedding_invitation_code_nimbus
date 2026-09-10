@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 360" role="presentation">
+  <defs>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd8dc"/><stop offset="1" stop-color="#e88998"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#aebd91"/><stop offset="1" stop-color="#586d4c"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#354634" stroke-linecap="round" stroke-width="6">
+    <path d="M10 345C75 270 82 184 174 126S310 65 414 8"/>
+    <path d="M54 278C22 224 24 154 6 112"/>
+    <path d="M113 190C172 195 214 224 250 274"/>
+  </g>
+  <g fill="url(#leaf)" stroke="#526548" stroke-width="3">
+    <ellipse cx="80" cy="252" rx="18" ry="47" transform="rotate(-54 80 252)"/>
+    <ellipse cx="108" cy="215" rx="17" ry="44" transform="rotate(55 108 215)"/>
+    <ellipse cx="164" cy="145" rx="18" ry="48" transform="rotate(-57 164 145)"/>
+    <ellipse cx="211" cy="119" rx="17" ry="45" transform="rotate(58 211 119)"/>
+    <ellipse cx="280" cy="76" rx="17" ry="46" transform="rotate(-55 280 76)"/>
+    <ellipse cx="333" cy="52" rx="17" ry="43" transform="rotate(53 333 52)"/>
+    <ellipse cx="142" cy="221" rx="16" ry="40" transform="rotate(-32 142 221)"/>
+  </g>
+  <g fill="url(#petal)" stroke="#c97885" stroke-width="3">
+    <g transform="translate(72 118)">
+      <ellipse cy="-30" rx="25" ry="40"/><ellipse cx="29" cy="-8" rx="25" ry="40" transform="rotate(72 29 -8)"/><ellipse cx="18" cy="27" rx="25" ry="40" transform="rotate(144 18 27)"/><ellipse cx="-18" cy="27" rx="25" ry="40" transform="rotate(216 -18 27)"/><ellipse cx="-29" cy="-8" rx="25" ry="40" transform="rotate(288 -29 -8)"/><circle r="14" fill="#f8b0b8"/>
+    </g>
+    <g transform="translate(190 65) scale(.78)">
+      <ellipse cy="-30" rx="25" ry="40"/><ellipse cx="29" cy="-8" rx="25" ry="40" transform="rotate(72 29 -8)"/><ellipse cx="18" cy="27" rx="25" ry="40" transform="rotate(144 18 27)"/><ellipse cx="-18" cy="27" rx="25" ry="40" transform="rotate(216 -18 27)"/><ellipse cx="-29" cy="-8" rx="25" ry="40" transform="rotate(288 -29 -8)"/><circle r="14" fill="#f8b0b8"/>
+    </g>
+    <g transform="translate(294 33) scale(.62)">
+      <ellipse cy="-30" rx="25" ry="40"/><ellipse cx="29" cy="-8" rx="25" ry="40" transform="rotate(72 29 -8)"/><ellipse cx="18" cy="27" rx="25" ry="40" transform="rotate(144 18 27)"/><ellipse cx="-18" cy="27" rx="25" ry="40" transform="rotate(216 -18 27)"/><ellipse cx="-29" cy="-8" rx="25" ry="40" transform="rotate(288 -29 -8)"/><circle r="14" fill="#f8b0b8"/>
+    </g>
+  </g>
+</svg>
